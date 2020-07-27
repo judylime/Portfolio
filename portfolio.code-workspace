@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "../MyPortfolio"
+	},
+	{
+		"path": "../../Downloads/Profile-Cards.github.io-master"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Portfolio_developer"
+  }
+}

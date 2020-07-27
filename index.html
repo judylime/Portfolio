@@ -49,48 +49,43 @@
     />
 
     <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/banner.css" />
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css" />
   </head>
 
   <body>
     <!-- ******Navbar****** -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Portfolio</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Judy's</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
+    
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">About</a>
           </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              
+            </a> -->
+            <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">Action</a>
               <a class="dropdown-item" href="#">Another action</a>
               <div class="dropdown-divider"></div>
@@ -98,24 +93,44 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link disabled" href="#"></a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form>
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
       </div>
     </nav>
     <!-- ******HEADER****** -->
-    <header class="header">
+
+      <div class="container-fluid">
+        <section id="home" class="flex height-fix">
+          <!-- <div id="pt" class="canvas">
+            <canvas
+              id="canvas"
+              width="1292"
+              height="914"
+              style="width: 1292px; height: 914px;"
+            ></canvas>
+          </div> -->
+          <div class="flex">
+
+            <div class="banner container-fluid  ">
+              <!-- <h2 style="color: red ;">Hello, I'm <span class="highlight">Judy Lian</span>.</h2> -->
+              <h1>Full-Stack Developer</h1>
+              <button type="button" class="button page-link view-my-work" dest="about">
+                View my work
+              </button>
+            </div>
+
+            <!-- <div class="button page-link" dest="about">
+                          View my work <i class="mdi mdi-arrow-right"></i>
+                        </div> -->
+          </div>
+        </section>
+      </div>
+
       <div class="container clearfix">
         <img
           class="profile-image img-fluid float-left rounded-circle"
@@ -178,12 +193,10 @@
               <div class="content">
                 <p>
                   Highly motivated, ambitious, and creative front-end developer
-                  with an "I CAN" attitude. As an experienced software
-                  developer, my goal is to be an extension of your business and
-                  building production-level web and mobile applications with a
-                  focus on e-commerce industry.
+                  with an "I CAN" attitude.
                 </p>
               </div>
+
               <!--//content-->
             </div>
             <!--//section-inner-->
@@ -668,28 +681,35 @@
               <h2 class="heading">Skills</h2>
               <div class="content">
                 <p class="intro">
-                  Well-versed in numerous languages/technologies including MERN Stack, javascript/typescript ecosystems 
+                  <strong>Front-end:</strong> JavaScript (ES6), React, Redux,
+                  HTML, SCSS, CSS <br /><br />
+                  <strong>Back-end / Databases / Middleware:</strong> Node.js,
+                  MongoDB, Mongoose, Express<br /><br />
+                  <strong>Design & Product Management:</strong> Photoshop,
+                  Illustrator, Sketch, User Persona, User Testing, Feature
+                  Prioritization, Invison <br /><br />
+                  <strong>Other:</strong> Git, GitHub <br />
                 </p>
-                
+
                 <div class="skillset">
-                    <div class="item">
-                      <h3 class="level-title">
-                        Express &amp; React<span
-                          class="level-label"
-                          data-toggle="tooltip"
-                          data-placement="left"
-                          data-animation="true"
-                          title="You can use the tooltip to explain more about your skill level..."
-                          ><i class="fas fa-info-circle"></i>Pro</span
-                        >
-                      </h3>
-                      <div class="level-bar">
-                        <div class="level-bar-inner" data-level="85%"></div>
-                      </div>
-                      <!--//level-bar-->
+                  <div class="item">
+                    <h3 class="level-title">
+                      Express &amp; React<span
+                        class="level-label"
+                        data-toggle="tooltip"
+                        data-placement="left"
+                        data-animation="true"
+                        title="You can use the tooltip to explain more about your skill level..."
+                        ><i class="fas fa-info-circle"></i>Pro</span
+                      >
+                    </h3>
+                    <div class="level-bar">
+                      <div class="level-bar-inner" data-level="85%"></div>
                     </div>
-                    <!--//item-->
-                    
+                    <!--//level-bar-->
+                  </div>
+                  <!--//item-->
+
                   <div class="item">
                     <h3 class="level-title">
                       MongoDB &amp; Node<span
@@ -745,7 +765,7 @@
                   <!--//item-->
 
                   <p>
-                    <a class="more-link" href="#"
+                    <a class="more-link" href="https://github.com/judylime"
                       ><i class="fas fa-external-link-alt"></i>More on GitHub</a
                     >
                   </p>
@@ -757,9 +777,9 @@
           </aside>
           <!--//section-->
 
-          <aside class="testimonials aside section">
+          <aside class="Recommendations aside section">
             <div class="section-inner shadow-sm rounded">
-              <h2 class="heading">Testimonials</h2>
+              <h2 class="heading">Recommendations</h2>
               <div class="content">
                 <div class="item">
                   <blockquote class="quote">
@@ -779,7 +799,9 @@
                 <!--//item-->
 
                 <p>
-                  <a class="more-link" href="#"
+                  <a
+                    class="more-link"
+                    href="https://www.linkedin.com/in/judylian/"
                     ><i class="fas fa-external-link-alt"></i>More on Linkedin</a
                   >
                 </p>
@@ -796,20 +818,38 @@
               <div class="content">
                 <div class="item">
                   <h3 class="title">
-                    <i class="fas fa-graduation-cap"></i> MSc Computer Science
+                    <i class="fas fa-graduation-cap"></i> MERN Stack Front to
+                    Back
+                  </h3>
+                  <h4 class="university">Udemy <span class="year"></span></h4>
+                </div>
+                <!--//item-->
+                <div class="item">
+                  <h3 class="title">
+                    <i class="fas fa-graduation-cap"></i> Programming
+                    Foundations with Javascript,HTML and CSS
                   </h3>
                   <h4 class="university">
-                    University College London
-                    <span class="year">(2011-2012)</span>
+                    Coursera: Duke University <span class="year"></span>
                   </h4>
                 </div>
                 <!--//item-->
                 <div class="item">
                   <h3 class="title">
-                    <i class="fas fa-graduation-cap"></i> BSc Computer Science
+                    <i class="fas fa-graduation-cap"></i> Accounting & Business
                   </h3>
                   <h4 class="university">
-                    University of Bristol <span class="year">(2008-2011)</span>
+                    Towson University
+                    <span class="year"></span>
+                  </h4>
+                </div>
+                <!--//item-->
+                <div class="item">
+                  <h3 class="title">
+                    <i class="fas fa-graduation-cap"></i> Finance
+                  </h3>
+                  <h4 class="university">
+                    Nankai University <span class="year"></span>
                   </h4>
                 </div>
                 <!--//item-->
@@ -1057,9 +1097,7 @@
         <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
         <small class="copyright"
           >Designed with <i class="fas fa-heart"></i> by
-          <a href="https://themes.3rdwavemedia.com" target="_blank"
-            >Xiaoying Riley</a
-          >
+          <a href="https://themes.3rdwavemedia.com" target="_blank"></a>
           for developers</small
         >
       </div>
