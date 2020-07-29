@@ -55,54 +55,55 @@
 
   <body>
     <!-- ******Navbar****** -->
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <a class="navbar-brand" href="#">Judy's</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              
-            </a> -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+        </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    
+                  </a> -->
             <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#"></a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form> -->
-      </div>
-    </nav>
-    <!-- ******HEADER****** -->
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#"></a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form> -->
+        </div>
+      </nav>
+    
+    <!-- ******Banner****** -->
 
       <div class="container-fluid">
         <section id="home" class="flex height-fix">
@@ -115,94 +116,114 @@
             ></canvas>
           </div> -->
           <div class="flex">
-
-            <div class="banner container-fluid  ">
+            <div class="banner container-fluid text-center ">
               <!-- <h2 style="color: red ;">Hello, I'm <span class="highlight">Judy Lian</span>.</h2> -->
               <h1>Full-Stack Developer</h1>
-              <button type="button" class="button page-link view-my-work" dest="about">
+              <button type="button" class="button btn btn-default" dest="about">
                 View my work
               </button>
             </div>
-
             <!-- <div class="button page-link" dest="about">
-                          View my work <i class="mdi mdi-arrow-right"></i>
-                        </div> -->
+                  View my work <i class="mdi mdi-arrow-right"></i>
+                </div> -->
           </div>
         </section>
       </div>
+    
 
-      <div class="container clearfix">
-        <img
-          class="profile-image img-fluid float-left rounded-circle"
-          src="assets/images/Profile.jpg"
-          alt="profile image"
-          width="160"
-        />
-        <div class="profile-content float-left">
-          <h1 class="name">
-            <a href="https://themes.3rdwavemedia.com/demo/devresume/#"
-              >Judy Lian</a
-            >
-          </h1>
-          <h2 class="desc">
-            Front End | Full Stack | MERN Stack | Web App Developer
-          </h2>
-          <ul class="social list-inline">
-            <li class="list-inline-item">
-              <a href="https://twitter.com/judylime"
-                ><i class="fab fa-twitter"></i
-              ></a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/judylian/"
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://github.com/judylime"
-                ><i class="fab fa-github-alt"></i
-              ></a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://stackoverflow.com/users/13543305/judylime"
-                ><i class="fab fa-stack-overflow"></i
-              ></a>
-            </li>
-            <li class="list-inline-item last-item">
-              <a href="https://codepen.io/judylime"
-                ><i class="fab fa-codepen"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
-        <!--//profile-->
-        <a class="btn btn-cta-primary float-right" href="#" target="_blank"
-          ><i class="fas fa-paper-plane"></i> Contact Me</a
-        >
-      </div>
-      <!--//container-->
+
     </header>
     <!--//header-->
 
     <div class="container sections-wrapper">
       <div class="row">
         <div class="primary col-lg-8 col-12">
-          <section class="about section">
-            <div class="section-inner shadow-sm rounded">
-              <h2 class="heading">About Me</h2>
-              <div class="content">
-                <p>
-                  Highly motivated, ambitious, and creative front-end developer
-                  with an "I CAN" attitude.
-                </p>
-              </div>
 
+
+          <aside class="skills aside section">
+            <div class="section-inner shadow-sm rounded">
+              <h2 class="heading">Skills</h2>
+              <div class="content">
+                <p class="intro">
+                  <strong>Front-end:</strong> JavaScript (ES6), React, Redux,
+                  HTML, SCSS, CSS <br />
+                  <strong>Back-end / Databases / Middleware:</strong> Node.js,
+                  MongoDB, Mongoose, Express<br />
+                  <strong>Design & Product Management:</strong> Photoshop,
+                  Illustrator, Sketch, User Persona, User Testing, Feature
+                  Prioritization, Invison <br />
+                  <strong>Other:</strong> Git, GitHub 
+                </p>
+          
+                <div class="skillset">
+                  <div class="item">
+                    <h3 class="level-title">
+                      Express &amp; React<span class="level-label" data-toggle="tooltip" data-placement="left"
+                        data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i
+                          class="fas fa-info-circle"></i>Pro</span>
+                    </h3>
+                    <div class="level-bar">
+                      <div class="level-bar-inner" data-level="85%"></div>
+                    </div>
+                    <!--//level-bar-->
+                  </div>
+                  <!--//item-->
+          
+                  <div class="item">
+                    <h3 class="level-title">
+                      MongoDB &amp; Node<span class="level-label" data-toggle="tooltip" data-placement="left"
+                        data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i
+                          class="fas fa-info-circle"></i>Expert</span>
+                    </h3>
+                    <div class="level-bar">
+                      <div class="level-bar-inner" data-level="80%"></div>
+                    </div>
+                    <!--//level-bar-->
+                  </div>
+                  <!--//item-->
+          
+                  <div class="item">
+                    <h3 class="level-title">
+                      Javascript &amp; jQuery<span class="level-label" data-toggle="tooltip" data-placement="left"
+                        data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i
+                          class="fas fa-info-circle"></i>Expert</span>
+                    </h3>
+                    <div class="level-bar">
+                      <div class="level-bar-inner" data-level="80%"></div>
+                    </div>
+                    <!--//level-bar-->
+                  </div>
+                  <!--//item-->
+          
+                  <div class="item">
+                    <h3 class="level-title">
+                      HTML5, CSS3, SASS &amp; LESS<span class="level-label" data-toggle="tooltip" data-placement="left"
+                        data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i
+                          class="fas fa-info-circle"></i>Expert</span>
+                    </h3>
+                    <div class="level-bar">
+                      <div class="level-bar-inner" data-level="96%"></div>
+                    </div>
+                    <!--//level-bar-->
+                  </div>
+                  <!--//item-->
+          
+                  <p>
+                    <a class="more-link" href="https://github.com/judylime"><i class="fas fa-external-link-alt"></i>More on
+                      GitHub</a>
+                  </p>
+                </div>
+              </div>
               <!--//content-->
             </div>
             <!--//section-inner-->
-          </section>
+          </aside>
           <!--//section-->
 
+
+        </div>
+
+      <div class="primary col-lg-12 col-12">
           <section class="latest section">
             <div class="section-inner shadow-sm rounded">
               <h2 class="heading">Latest Projects</h2>
@@ -555,7 +576,7 @@
             <!--//section-inner-->
           </section>
           <!--//section-->
-
+      </div>
           <section class="experience section">
             <div class="section-inner shadow-sm rounded">
               <h2 class="heading">Work Experience</h2>
@@ -649,8 +670,24 @@
         <div class="secondary col-lg-4 col-12">
           <aside class="info aside section">
             <div class="section-inner shadow-sm rounded">
-              <h2 class="heading sr-only">Basic Information</h2>
-              <div class="content">
+                        <section class="about section">
+                          <div class="section-inner shadow-sm rounded">
+                            <h2 class="heading">About Me</h2>
+                            <div class="content">
+                              <p>
+                                Highly motivated, ambitious, and creative front-end developer
+                                with an "I CAN" attitude.
+                              </p>
+                            </div>
+                        
+                            <!--//content-->
+                          </div>
+                          <!--//section-inner-->
+                        </section>
+                        <!--//section-->
+
+              <!-- <h2 class="heading sr-only">Basic Information</h2> -->
+              <!-- <div class="content">
                 <ul class="list-unstyled">
                   <li>
                     <i class="fas fa-map-marker-alt"></i
@@ -669,113 +706,28 @@
                     >
                   </li>
                 </ul>
-              </div>
+              </div> -->
               <!--//content-->
             </div>
             <!--//section-inner-->
           </aside>
           <!--//aside-->
 
-          <aside class="skills aside section">
-            <div class="section-inner shadow-sm rounded">
-              <h2 class="heading">Skills</h2>
-              <div class="content">
-                <p class="intro">
-                  <strong>Front-end:</strong> JavaScript (ES6), React, Redux,
-                  HTML, SCSS, CSS <br /><br />
-                  <strong>Back-end / Databases / Middleware:</strong> Node.js,
-                  MongoDB, Mongoose, Express<br /><br />
-                  <strong>Design & Product Management:</strong> Photoshop,
-                  Illustrator, Sketch, User Persona, User Testing, Feature
-                  Prioritization, Invison <br /><br />
-                  <strong>Other:</strong> Git, GitHub <br />
-                </p>
-
-                <div class="skillset">
-                  <div class="item">
-                    <h3 class="level-title">
-                      Express &amp; React<span
-                        class="level-label"
-                        data-toggle="tooltip"
-                        data-placement="left"
-                        data-animation="true"
-                        title="You can use the tooltip to explain more about your skill level..."
-                        ><i class="fas fa-info-circle"></i>Pro</span
-                      >
-                    </h3>
-                    <div class="level-bar">
-                      <div class="level-bar-inner" data-level="85%"></div>
-                    </div>
-                    <!--//level-bar-->
-                  </div>
-                  <!--//item-->
-
-                  <div class="item">
-                    <h3 class="level-title">
-                      MongoDB &amp; Node<span
-                        class="level-label"
-                        data-toggle="tooltip"
-                        data-placement="left"
-                        data-animation="true"
-                        title="You can use the tooltip to explain more about your skill level..."
-                        ><i class="fas fa-info-circle"></i>Expert</span
-                      >
-                    </h3>
-                    <div class="level-bar">
-                      <div class="level-bar-inner" data-level="80%"></div>
-                    </div>
-                    <!--//level-bar-->
-                  </div>
-                  <!--//item-->
-
-                  <div class="item">
-                    <h3 class="level-title">
-                      Javascript &amp; jQuery<span
-                        class="level-label"
-                        data-toggle="tooltip"
-                        data-placement="left"
-                        data-animation="true"
-                        title="You can use the tooltip to explain more about your skill level..."
-                        ><i class="fas fa-info-circle"></i>Expert</span
-                      >
-                    </h3>
-                    <div class="level-bar">
-                      <div class="level-bar-inner" data-level="80%"></div>
-                    </div>
-                    <!--//level-bar-->
-                  </div>
-                  <!--//item-->
-
-                  <div class="item">
-                    <h3 class="level-title">
-                      HTML5, CSS3, SASS &amp; LESS<span
-                        class="level-label"
-                        data-toggle="tooltip"
-                        data-placement="left"
-                        data-animation="true"
-                        title="You can use the tooltip to explain more about your skill level..."
-                        ><i class="fas fa-info-circle"></i>Expert</span
-                      >
-                    </h3>
-                    <div class="level-bar">
-                      <div class="level-bar-inner" data-level="96%"></div>
-                    </div>
-                    <!--//level-bar-->
-                  </div>
-                  <!--//item-->
-
+            <section class="about section">
+              <div class="section-inner shadow-sm rounded">
+                <h2 class="heading">About Me</h2>
+                <div class="content">
                   <p>
-                    <a class="more-link" href="https://github.com/judylime"
-                      ><i class="fas fa-external-link-alt"></i>More on GitHub</a
-                    >
+                    Highly motivated, ambitious, and creative front-end developer
+                    with an "I CAN" attitude.
                   </p>
                 </div>
+            
+                <!--//content-->
               </div>
-              <!--//content-->
-            </div>
-            <!--//section-inner-->
-          </aside>
-          <!--//section-->
+              <!--//section-inner-->
+            </section>
+            <!--//section-->
 
           <aside class="Recommendations aside section">
             <div class="section-inner shadow-sm rounded">
@@ -1093,6 +1045,38 @@
 
     <!-- ******FOOTER****** -->
     <footer class="footer">
+            <!-- <div class="container clearfix">
+              <img class="profile-image img-fluid float-left rounded-circle" src="assets/images/Profile.jpg" alt="profile image"
+                width="160" />
+              <div class="profile-content float-left">
+                <h1 class="name">
+                  <a href="https://themes.3rdwavemedia.com/demo/devresume/#">Judy Lian</a>
+                </h1>
+                <h2 class="desc">
+                  Front End | Full Stack | MERN Stack | Web App Developer
+                </h2>
+                <ul class="social list-inline">
+                  <li class="list-inline-item">
+                    <a href="https://twitter.com/judylime"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="https://www.linkedin.com/in/judylian/"><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="https://github.com/judylime"><i class="fab fa-github-alt"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="https://stackoverflow.com/users/13543305/judylime"><i class="fab fa-stack-overflow"></i></a>
+                  </li>
+                  <li class="list-inline-item last-item">
+                    <a href="https://codepen.io/judylime"><i class="fab fa-codepen"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <!--//profile-->
+              <a class="btn btn-cta-primary float-right" href="#" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>
+            </div>
+            //container -->
       <div class="container text-center">
         <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
         <small class="copyright"
